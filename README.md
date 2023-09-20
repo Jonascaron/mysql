@@ -1,8 +1,9 @@
 # Opdracht 1: The Lab
 
-Opdracht 2: The Lab
-a)	Maak een database genaamd the_lab
-b)	Neem de volgende code over en voer deze queries uit!
+- a)	Maak een database genaamd the_lab
+- b)	Neem de volgende code over en voer deze queries uit!
+
+```sql
 create table Scientists (
   SSN int,
   Name Char(30) not null,
@@ -23,7 +24,11 @@ create table AssignedTo (
   Foreign Key (Scientist) references Scientists (SSN),
   Foreign Key (Project) references Projects (Code)
 );
+```
+
 c)	Neem de volgende code over en voer deze queries uit!
+
+```sql
 INSERT INTO Scientists(SSN,Name) 
   VALUES(123234877,'Michael Rogers'),
     (152934485,'Anand Manikutty'),
@@ -67,4 +72,6 @@ INSERT INTO Scientists(SSN,Name)
     (845657245,'Ast1'),
     (845657246,'Ast2'),
     (332569843,'AeH4');
-d)	Probeer dan de volgende opdracht uit te voeren: Maak een lijst van alle namen van de wetenschappers, de namen van hun projecten en de uren die die wetenschapper aan elk project heeft gewerkt, in alfabetische volgorde van projectnaam en vervolgens naam van de wetenschapper.
+```
+## Uit te voeren opdracht 
+Probeer dan de volgende opdracht uit te voeren: Maak een lijst van alle namen van de wetenschappers, de namen van hun projecten en de uren die die wetenschapper aan elk project heeft gewerkt, in alfabetische volgorde van projectnaam en vervolgens naam van de wetenschapper.
