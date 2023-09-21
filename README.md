@@ -83,15 +83,15 @@ Probeer dan de volgende opdracht uit te voeren: Maak een lijst van alle namen va
 1. Maak een database genaamd movies_challenge.
 2. Maak een database aan de hand van de gegevens onderaan
 3. Beantwoord onderstaande vragen:
-   • Selecteer alle titels van de films
-   • Toon alle ratings 1 keer
-   • Toon de films zonder rating
-   • Toon de bioscopen waar geen film draait
-   • Toon alle data van de bioscopen met daarbij de informatie van de film die getoond wordt.
-   • Toon alle data van de films en als de film in een bioscoop draait dan toon je die info
-   • Toon de titels van films die niet in de bioscoop draaien
-   • Verander de rating van alle films zonder rating in "G"
-   • Verwijder bioscopen die films tonen met rating "NC-17".
+   - Selecteer alle titels van de films
+   - Toon alle ratings 1 keer
+   - Toon de films zonder rating
+   - Toon de bioscopen waar geen film draait
+   - Toon alle data van de bioscopen met daarbij de informatie van de film die getoond wordt.
+   - Toon alle data van de films en als de film in een bioscoop draait dan toon je die info
+   - Toon de titels van films die niet in de bioscoop draaien
+   - Verander de rating van alle films zonder rating in "G"
+   - Verwijder bioscopen die films tonen met rating "NC-17".
 
 ```sql
    INSERT INTO Movies(Code,Title,Rating) VALUES(9,'Citizen King','G');
