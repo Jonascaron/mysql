@@ -92,6 +92,8 @@ Probeer dan de volgende opdracht uit te voeren: Maak een lijst van alle namen va
    • Toon de titels van films die niet in de bioscoop draaien
    • Verander de rating van alle films zonder rating in "G"
    • Verwijder bioscopen die films tonen met rating "NC-17".
+
+```sql
    INSERT INTO Movies(Code,Title,Rating) VALUES(9,'Citizen King','G');
    INSERT INTO Movies(Code,Title,Rating) VALUES(1,'Citizen Kane','PG');
    INSERT INTO Movies(Code,Title,Rating) VALUES(2,'Singin'' in the Rain','G');
@@ -108,3 +110,4 @@ INSERT INTO MovieTheaters(Code,Name,Movie) VALUES(3,'Majestic',NULL);
 INSERT INTO MovieTheaters(Code,Name,Movie) VALUES(4,'Royale',6);
 INSERT INTO MovieTheaters(Code,Name,Movie) VALUES(5,'Paraiso',3);
 INSERT INTO MovieTheaters(Code,Name,Movie) VALUES(6,'Nickelodeon',NULL);
+```
