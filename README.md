@@ -111,3 +111,18 @@ INSERT INTO MovieTheaters(Code,Name,Movie) VALUES(4,'Royale',6);
 INSERT INTO MovieTheaters(Code,Name,Movie) VALUES(5,'Paraiso',3);
 INSERT INTO MovieTheaters(Code,Name,Movie) VALUES(6,'Nickelodeon',NULL);
 ```
+
+# Opdracht 3: Trakt
+
+We maken een entity-relationshipmodel voor iets als Trakt. Dit is een website waarmee je kan bijhouden welke films en series je hebt bekeken of aan het bekijken bent.
+
+**Teken zelf een diagram uit, op basis van volgende informatie:**
+
+- We willen zowel films als series kunnen opvolgen. Beide hebben titels.
+- Zowel films als series kunnen behoren tot één of meer genres.
+- Series bestaan uit afleveringen, met individuele releasedatums. We hoeven geen info over seizoenen te kunnen opzoeken.
+- Films hebben één releasedatum.
+- In elke film en elke aflevering spelen acteurs mee. We willen ook details (naam, geboortedatum, leeftijd) over een bepaalde acteur kunnen opzoeken.
+- Gebruikers kunnen een rating van 1 tot 5 geven aan films of afleveringen die ze gezien hebben.
+- Gebruikers kunnen bijhouden wanneer ze een film of aflevering gezien hebben. Ze kunnen een film of aflevering meermaals bekeken hebben
+  [Trakt](trakt: https://trakt.tv/)
